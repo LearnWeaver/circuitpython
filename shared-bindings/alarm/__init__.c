@@ -203,7 +203,7 @@ STATIC mp_map_elem_t alarm_module_globals_table[] = {
     // wake_alarm is a mutable attribute.
     { MP_ROM_QSTR(MP_QSTR_wake_alarm), mp_const_none },
 
-    { MP_ROM_QSTR(MP_QSTR_light_sleep_until_alarms), MP_OBJ_FROM_PTR(&alarm_light_sleep_until_alarms_obj) },
+    { MP_ROM_QSTR(MP_QSTR_IR_SENSOR_sleep_until_alarms), MP_OBJ_FROM_PTR(&alarm_light_sleep_until_alarms_obj) },
     { MP_ROM_QSTR(MP_QSTR_exit_and_deep_sleep_until_alarms),
       MP_OBJ_FROM_PTR(&alarm_exit_and_deep_sleep_until_alarms_obj) },
 

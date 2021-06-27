@@ -8,7 +8,7 @@ STATIC const mp_rom_map_elem_t board_global_dict_table[] = {
     { MP_ROM_QSTR(MP_QSTR_SPEAKER), MP_ROM_PTR(&pin_PA02) },
 
     { MP_ROM_QSTR(MP_QSTR_A1), MP_ROM_PTR(&pin_PB08) },
-    { MP_ROM_QSTR(MP_QSTR_LIGHT), MP_ROM_PTR(&pin_PB08) },
+    { MP_ROM_QSTR(MP_QSTR_IR_SENSOR), MP_ROM_PTR(&pin_PB08) },
 
     { MP_ROM_QSTR(MP_QSTR_A2), MP_ROM_PTR(&pin_PB09) },
     { MP_ROM_QSTR(MP_QSTR_TOUCH4), MP_ROM_PTR(&pin_PB09) },

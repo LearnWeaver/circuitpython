@@ -60,6 +60,7 @@ as a natural "TODO" list. An example minimal build list is shown below:
     CIRCUITPY_ANALOGIO = 0
     CIRCUITPY_BUSIO = 0
     CIRCUITPY_COUNTIO = 0
+    CIRCUITPY_IRSENSOR = 0
     CIRCUITPY_NEOPIXEL_WRITE = 0
     CIRCUITPY_PULSEIO = 0
     CIRCUITPY_OS = 0

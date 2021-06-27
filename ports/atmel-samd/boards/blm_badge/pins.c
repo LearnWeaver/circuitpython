@@ -34,7 +34,7 @@ STATIC const mp_rom_map_elem_t board_global_dict_table[] = {
     { MP_ROM_QSTR(MP_QSTR_MICROPHONE_DATA), MP_ROM_PTR(&pin_PA08) },
     { MP_ROM_QSTR(MP_QSTR_D0), MP_ROM_PTR(&pin_PA08) },
 
-    { MP_ROM_QSTR(MP_QSTR_LIGHT), MP_ROM_PTR(&pin_PA11) },
+    { MP_ROM_QSTR(MP_QSTR_IR_SENSOR), MP_ROM_PTR(&pin_PA11) },
     { MP_ROM_QSTR(MP_QSTR_A4), MP_ROM_PTR(&pin_PA11) },
 
     { MP_ROM_QSTR(MP_QSTR_LED), MP_ROM_PTR(&pin_PA03) },

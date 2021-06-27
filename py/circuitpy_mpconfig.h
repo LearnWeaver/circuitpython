@@ -388,6 +388,13 @@ extern const struct _mp_obj_module_t countio_module;
 #define COUNTIO_MODULE
 #endif
 
+#if CIRCUITPY_IRSENSOR
+extern const struct _mp_obj_module_t irsensor_module;
+#define IRSENSOR_MODULE        { MP_OBJ_NEW_QSTR(MP_QSTR_irsensor), (mp_obj_t)&irsensor_module },
+#else
+#define IRSENSOR_MODULE
+#endif
+
 #if CIRCUITPY_DIGITALIO
 extern const struct _mp_obj_module_t digitalio_module;
 #define DIGITALIO_MODULE       { MP_OBJ_NEW_QSTR(MP_QSTR_digitalio), (mp_obj_t)&digitalio_module },
@@ -869,6 +876,7 @@ extern const struct _mp_obj_module_t msgpack_module;
     CAMERA_MODULE \
     CANIO_MODULE \
     COUNTIO_MODULE \
+    IRSENSOR_MODULE \
     DIGITALIO_MODULE \
     DISPLAYIO_MODULE \
     DUALBANK_MODULE \

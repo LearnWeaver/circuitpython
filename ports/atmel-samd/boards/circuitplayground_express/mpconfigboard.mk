@@ -16,6 +16,7 @@ CIRCUITPY_DISPLAYIO = 0
 # Now we actually have a lot of room. Put back some useful modules.
 CIRCUITPY_BITBANGIO = 1
 CIRCUITPY_COUNTIO = 1
+CIRCUITPY_IRSENSOR = 1
 CIRCUITPY_BUSDEVICE = 1
 
 # Include these Python libraries in firmware.

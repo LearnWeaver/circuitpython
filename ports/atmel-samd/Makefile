@@ -201,7 +201,7 @@ endif
 
 LDFLAGS = $(CFLAGS) -nostartfiles -Wl,-nostdlib -Wl,-T,$(GENERATED_LD_FILE) -Wl,-Map=$@.map -Wl,-cref -Wl,-gc-sections -specs=nano.specs
 LDFLAGS += -flto=$(shell $(NPROC))
-LIBS := -lgcc -lc
+LIBS := -lgcc -lc -lm
 
 # Use toolchain libm if we're not using our own.
 ifndef INTERNAL_LIBM

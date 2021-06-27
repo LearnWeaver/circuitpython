@@ -13,7 +13,7 @@ STATIC const mp_rom_map_elem_t board_global_dict_table[] = {
     { MP_OBJ_NEW_QSTR(MP_QSTR_SPEAKER_ENABLE), MP_ROM_PTR(&pin_PA27) },
 
     // Light sensor
-    { MP_OBJ_NEW_QSTR(MP_QSTR_LIGHT), MP_ROM_PTR(&pin_PA07) },
+    { MP_OBJ_NEW_QSTR(MP_QSTR_IR_SENSOR), MP_ROM_PTR(&pin_PA07) },
     { MP_OBJ_NEW_QSTR(MP_QSTR_A2), MP_ROM_PTR(&pin_PA07) },
 
     // STEMMA connectors

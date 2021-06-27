@@ -49,8 +49,8 @@ STATIC const mp_rom_map_elem_t board_module_globals_table[] = {
 
     { MP_ROM_QSTR(MP_QSTR_NEOPIXEL),                MP_ROM_PTR(&pin_P1_15) },
 
-    { MP_ROM_QSTR(MP_QSTR_LIGHT),                   MP_ROM_PTR(&pin_P0_28) },
-    { MP_ROM_QSTR(MP_QSTR_LIGHT_ENABLE),            MP_ROM_PTR(&pin_P0_30) },
+    { MP_ROM_QSTR(MP_QSTR_IR_SENSOR),                   MP_ROM_PTR(&pin_P0_28) },
+    { MP_ROM_QSTR(MP_QSTR_IR_SENSOR_ENABLE),            MP_ROM_PTR(&pin_P0_30) },
 
     { MP_ROM_QSTR(MP_QSTR_SPEAKER),                 MP_ROM_PTR(&pin_P1_14) },
 
